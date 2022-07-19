@@ -1,5 +1,6 @@
 [core]
     remote = storage
+[cache]
+    dir = /data/dvc-cache
 ['remote "storage"']
-    url = s3://dvc/mlperf
-    endpointurl = https://s3.pacificera.com
+    url = /data/mlperf
